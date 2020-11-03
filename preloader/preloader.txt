@@ -2,6 +2,12 @@
 .preloader
   .cssload-loader
   
+///js
+window.onload = function() {
+  let preloader = document.querySelector('.preloader');
+  preloader.style.display = 'none';
+};
+  
 
 ///css
 .preloader {
